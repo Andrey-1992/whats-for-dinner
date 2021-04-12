@@ -34,3 +34,18 @@ header {
   color: #ee5253;
   display: inline;
 }
+
+/* -------------------------------- */
+
+main {
+  display:flex;
+  justify-content: space-around ;
+}
+
+.user-select, .food-proposal {
+background: rgba(225, 225, 225, .9);
+width: 450px;
+height: 300px;
+margin: 50px 50px 50px 50px;
+padding: 50px 20px 100px 40px;
+}
