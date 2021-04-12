@@ -61,3 +61,21 @@ function showMeal() {
   menuTitle.classList.remove('hidden');
   menuPropose.classList.remove('hidden');
 }
+
+function clearFoodPropose() {
+  cookpotLogo.classList.remove('hidden');
+  clearBtn.classList.add('hidden');
+  menuTitle.classList.add('hidden');
+  menuPropose.classList.add('hidden');
+}
+
+// Create a class to make object instances for createEntireMenu
+// class EntireMenu {
+  //   constructor(sides, main, desserts){
+    //     this.sides = sides;
+    //     this.main = main;
+    //     this.desserts = desserts;
+    //   }
+    // }
+    //
+    // var completeMenu = new EntireMenu(sides, main, desserts);
