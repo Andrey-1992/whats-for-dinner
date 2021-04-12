@@ -63,3 +63,30 @@ padding: 50px 20px 100px 40px;
   border-radius: 5px;
   display: none;
 } */
+
+/* ------------------------------ */
+
+#lets-cook {
+  background: #0fb9b1;
+  font: rgba(225, 225, 225, .9);
+  margin: 10px 10px 10px 10px;
+  border: 0px;
+  padding: 10px 50px 10px 50px;
+  border-radius: 5px;
+}
+
+#side-btn {
+  margin: 10px 10px 10px 5px;
+}
+
+#main-btn {
+  margin: 10px 10px 10px 5px;
+}
+
+#dessert-btn {
+  margin: 10px 10px 10px 5px;
+}
+
+#entire-btn {
+  margin: 10px 10px 10px 5px;
+}
