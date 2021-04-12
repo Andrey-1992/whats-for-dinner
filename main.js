@@ -31,3 +31,33 @@ var desserts = ['Apple Pie', 'Lemon Meringue Pie', 'Black Forest Cake',
 
 letsCookBtn.addEventListener('click', proposeMenu);
 clearBtn.addEventListener('click', clearFoodPropose);
+
+/* -------------- Functions ---------------------- */
+
+function getRandomIndex(array) {
+  return Math.floor(Math.random() * array.length);
+}
+
+function proposeMenu() {
+  event.preventDefault();
+  if (sideOpt.cheked) {
+    menuPropose.innerText = `${sides[getRandomIndex(sides)]}`;
+    showMeal();
+  }  else if (mainOpt.cheked) {
+    menuPropose.innerText = `${main[getRandomIndex(main)]}`;
+    showMeal();
+  } else if (dessertOpt.checked) {
+    menuPropose.innerText = `${desserts[getRandomIndex(desserts)]}`;
+    showMeal();
+  } else if (entireOpt.checked) {
+    menuPropose.innerText = `${main[getRandomIndex(main)]} with a side of ${sides[getRandomIndex(sides)]} and ${desserts[getRandomIndex(desserts)]} for dessert! `
+    showMeal();
+ }
+}
+
+function showMeal() {
+  cookpotLogo.classList.add('hidden');
+  clearBtn.classList.remove('hidden');
+  menuTitle.classList.remove('hidden');
+  menuPropose.classList.remove('hidden');
+}
