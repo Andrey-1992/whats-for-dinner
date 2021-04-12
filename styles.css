@@ -15,8 +15,10 @@ red - #ee5253
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
   background-image: url(assets/burger-friends.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* -------------------------------- */
