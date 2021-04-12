@@ -44,8 +44,22 @@ main {
 
 .user-select, .food-proposal {
 background: rgba(225, 225, 225, .9);
-width: 450px;
-height: 300px;
+width: 400px;
+height: 350px;
 margin: 50px 50px 50px 50px;
 padding: 50px 20px 100px 40px;
 }
+
+/* ----------------------------- */
+.cookpot-logo {
+  width: 10px;
+  height: 10px;
+  position:relative;
+  padding: 50px 50px 50px 50px;
+}
+
+/* #clear-menu {
+  background: #95a5a6;;
+  border-radius: 5px;
+  display: none;
+} */
