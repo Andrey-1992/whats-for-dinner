@@ -29,3 +29,8 @@ header {
  font-size: 10px;
  vertical-align: middle;
 }
+
+.a {
+  color: #ee5253;
+  display: inline;
+}
